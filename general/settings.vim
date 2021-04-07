@@ -38,18 +38,18 @@ set indentexpr=                         " Was changing line indenting?
 set indentkeys=                         " Was changing line indenting?
 set laststatus=0                        " Always display the status line
 set relativenumber                      " Relative Line numbers
-" set number                              " Line numbers
+set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
 set background=dark                     " tell vim what the background color looks like
 set showtabline=2                       " Always show tab bar at top 
 set noshowmode                          " We don't need to see things like -- INSERT -- 
 set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
-" set backupdir=~/.config/nvim/backup
-" set directory=~/.config/nvim/swap//
-set scrolloff=7
+" set backupdir=~/AppData/Local/nvim/backup
+" set directory=~/AppData/Local/nvim/swap//
+set scrolloff=10
 
-" let &backupdir = expand('~/.config/nvim/backup//') " Folder for backup files
+" let &backupdir = expand('~/AppData/Local/nvim/backup//') " Folder for backup files
 " if !isdirectory(&backupdir) | call mkdir(&backupdir, "p") | endif
 set updatetime=300                      " Faster completion
 set timeoutlen=100                      " By default timeoutlen is 1000 ms
