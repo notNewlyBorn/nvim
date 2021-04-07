@@ -107,7 +107,7 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     " Plug 'gennaro-tedesco/nvim-peekup'
 
 " Zen mode
-    " Plug 'junegunn/goyo.vim'
+ Plug 'junegunn/goyo.vim'
 
 " Look up words
     " Plug 'beloglazov/vim-online-thesaurus'
