@@ -1,5 +1,5 @@
 
-let g:tmpl_search_paths = ['~/.config/nvim/templates']
-let g:tmpl_author_email = 'benbrastmckie@gmail.com'
-let g:tmpl_author_name = 'Benjamin Brast-McKie'
-" let g:templates_directory = ['~/.config/nvim/templates']
+let g:tmpl_search_paths = ['~/AppData/Local/nvim/templates']
+let g:tmpl_author_email = 'nafis_20@yahoo.com'
+let g:tmpl_author_name = 'notNewlyBorn'
+" let g:templates_directory = ['~/AppData/Local/nvim/templates']

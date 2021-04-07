@@ -8,17 +8,9 @@ endif
 
 call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 
-" TEXT SUPPORT
+" TEXT SUPPORT IS REMOVED
 
-" LaTeX Support
-    Plug 'lervag/vimtex'
-    " Plug 'dense-analysis/ale' " LaTeX Linting
-
-" Markdown
-    Plug 'gabrielelana/vim-markdown'
-    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-    " Plug 'plasticboy/vim-markdown'    
-    " Plug 'godlygeek/tabular'
+" Markdown SUPPORT IS REMOVED
     
 " Pandoc: conflict with markdown auto-indent and syntax highlighting
     " Plug 'vim-pandoc/vim-pandoc'

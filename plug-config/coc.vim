@@ -1,9 +1,9 @@
  
 let g:coc_global_extensions = [
+  \ 'coc-tsserver',
   \ 'coc-snippets',
   \ 'coc-pairs',
   \ 'coc-floaterm',
-  \ 'coc-vimtex',
   \ 'coc-explorer',
   \ 'coc-json',
   \ 'coc-yank',
@@ -12,7 +12,6 @@ let g:coc_global_extensions = [
   "   \ 'coc-vimlsp',
   "   \ 'coc-actions',
   "   \ 'coc-emmet',
-  "   \ 'coc-tsserver',
   "   \ 'coc-html',
   "   \ 'coc-css',
   "   \ 'coc-cssmodules',

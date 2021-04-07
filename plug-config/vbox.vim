@@ -1,8 +1,8 @@
-let g:vbox = {'dir': '~/.config/nvim/templates'}
+let g:vbox = {'dir': '~/AppData/Local/nvim/templates'}
 
 let g:vbox.variables = {
-			\	'%NAME%'     : 'Benjamin Brast-McKie',
-			\	'%MAIL%'     : 'benbrastmckie@gmail.com',
-			\	'%REPO%'     : 'https://github.com/benbrastmckie/'
+			\	'%NAME%'     : 'notNewlyBorn',
+			\	'%MAIL%'     : 'nafis_20@yahoo.com',
+			\	'%REPO%'     : 'https://github.com/notNewlyBorn/'
 			\ }
 

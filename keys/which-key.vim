@@ -62,18 +62,18 @@ let g:which_key_map.P = {
   " \ 'p' : [':Pandoc pdf'            , 'to pdf from open'],
 
 
-" t is for TEMPLATES
-let g:which_key_map.T = {
-  \ 'name' : '+templates' ,
-  \ 'p' : [':read ~/.config/nvim/templates/PhilPaper.tex' , 'PhilPaper.tex'],
-  \ 'l' : [':read ~/.config/nvim/templates/Letter.tex'    , 'Letter.tex'],
-  \ 'g' : [':read ~/.config/nvim/templates/Glossary.tex'  , 'Glossary.tex'],
-  \ 'h' : [':read ~/.config/nvim/templates/HandOut.tex'   , 'HandOut.tex'],
-  \ 'b' : [':read ~/.config/nvim/templates/PhilBeamer.tex', 'PhilBeamer.tex'],
-  \ 's' : [':read ~/.config/nvim/templates/SubFile.tex'   , 'SubFile.tex'],
-  \ 'r' : [':read ~/.config/nvim/templates/Root.tex'      , 'Root.tex'],
-  \ 'm' : [':read ~/.config/nvim/templates/MultipleAnswer.tex'           , 'MultipleAnswer.tex'],
-  \ }
+" TODO: reassign 't' for some other purpose. was used for LaTeX TEMPLATES 
+" let g:which_key_map.T = {
+" \ 'name' : '+templates' ,
+" \ 'p' : [':read ~/AppData/Local/nvim/templates/PhilPaper.tex' , 'PhilPaper.tex'],
+" \ 'l' : [':read ~/AppData/Local/nvim/templates/Letter.tex'    , 'Letter.tex'],
+" \ 'g' : [':read ~/AppData/Local/nvim/templates/Glossary.tex'  , 'Glossary.tex'],
+" \ 'h' : [':read ~/AppData/Local/nvim/templates/HandOut.tex'   , 'HandOut.tex'],
+" \ 'b' : [':read ~/AppData/Local/nvim/templates/PhilBeamer.tex', 'PhilBeamer.tex'],
+" \ 's' : [':read ~/AppData/Local/nvim/templates/SubFile.tex'   , 'SubFile.tex'],
+" \ 'r' : [':read ~/AppData/Local/nvim/templates/Root.tex'      , 'Root.tex'],
+" \ 'm' : [':read ~/AppData/Local/nvim/templates/MultipleAnswer.tex'           , 'MultipleAnswer.tex'],
+" \ }
 
 
 " s is for SESSIONS
@@ -124,8 +124,8 @@ let g:which_key_map.v = {
 let g:which_key_map.a = {
   \ 'name' : '+actions' ,
   \ 'b' : [':terminal bibexport -o %:p:r.bib %:p:r.aux'  , 'bib export'],
-  \ 'g' : [':e ~/.config/nvim/templates/Glossary.tex', 'edit glossary'],
-  \ 's' : [':e ~/.config/nvim/snips/tex.snippets'    , 'edit snippets'],
+  \ 'g' : [':e ~/AppData/Local/nvim/templates/Glossary.tex', 'edit glossary'],
+  \ 's' : [':e ~/AppData/Local/nvim/snips/tex.snippets'    , 'edit snippets'],
   \ 't' : [':FloatermKill!'                          , 'kill terminals'],
   \ 'k' : [':CocDisable'                             , 'kill coc'],
   \ 'r' : [':CocEnable'                              , 'restore coc'],
