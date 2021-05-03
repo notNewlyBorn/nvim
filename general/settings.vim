@@ -65,13 +65,7 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 " sets indenting by file type
 filetype plugin indent on
 
-au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
-
-" For highlighting yanked text in nvim (but didn't work)
-" augroup highlight_yank
-"     autocmd!
-"     au TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=700}
-" augroup END
+au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vim alternatively you can run :source $MYVIMRC
 
 " You can't stop me
 " cmap w!! w !sudo tee %

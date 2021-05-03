@@ -12,10 +12,6 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 
 " Markdown SUPPORT IS REMOVED
     
-" Pandoc: conflict with markdown auto-indent and syntax highlighting
-    " Plug 'vim-pandoc/vim-pandoc'
-    " Plug 'vim-pandoc/vim-pandoc-syntax' " Syntax not as good
-
 " Better Syntax Support
     " Plug 'sheerun/vim-polyglot'
     
@@ -38,12 +34,6 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     
 " File Explorer
     Plug 'ryanoasis/vim-devicons' "adds icons to coc-explorer
-    " Plug 'vifm/vifm.vim'
-    " Plug 'scrooloose/nerdtree'
-    " Plug 'preservim/nerdtree'
-    " Plug 'Xuyuanp/nerdtree-git-plugin'
-    " Plug 'tsony-tsonev/nerdtree-git-plugin'
-    " Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " Is this required?
     
 " Fuzzy Finder
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -54,10 +44,9 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 " Git Integration
     Plug 'mhinz/vim-signify'
     Plug 'airblade/vim-gitgutter'
-    " Plug 'tpope/vim-fugitive'
-    " Plug 'tpope/vim-rhubarb'
-    " Plug 'junegunn/gv.vim'
-
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
 
 " AUTOCOMPLETE
 
@@ -109,17 +98,11 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 " Zen mode
  Plug 'junegunn/goyo.vim'
 
-" Look up words
-    " Plug 'beloglazov/vim-online-thesaurus'
-
-
-
 " MAPPINGS
 
 " Look Up Key Bindings
     Plug 'liuchengxu/vim-which-key'
 
-    
 
 " APPEARANCE
 

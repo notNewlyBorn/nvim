@@ -28,11 +28,6 @@ let g:which_key_map['d'] = [ ':bd!'                  , 'delete buffer']
 let g:which_key_map['e'] = [ ':CocCommand explorer'  , 'explorer' ]
 let g:which_key_map['q'] = [ ':wqa'                  , 'quit' ]
 let g:which_key_map['w'] = [ ':w'                    , 'write' ]
-let g:which_key_map['b'] = [ 'VimtexCompile'         , 'build' ]
-let g:which_key_map['p'] = [ 'VimtexView'            , 'preview' ]
-let g:which_key_map['i'] = [ 'VimtexTocOpen'         , 'index' ]
-let g:which_key_map['k'] = [ 'VimtexClean'           , 'kill aux' ]
-let g:which_key_map['l'] = [ 'VimtexErrors'          , 'error log' ]
 let g:which_key_map['r'] = [ ':source $MYVIMRC'      , 'reload config' ]
 let g:which_key_map.c = 'count'
 let g:which_key_map.u = 'undo'
@@ -44,37 +39,6 @@ let g:which_key_map.u = 'undo'
 
 
 " GROUP MAPPINGS
-
-" P is for PANDOC
-let g:which_key_map.P = {
-  \ 'name' : '+pandoc' ,
-  \ 'w' : [':FloatermNew! --disposable pandoc %:p -o %:p:r.docx' , 'word'],
-  \ 'm' : [':FloatermNew! --disposable pandoc %:p -o %:p:r.md'   , 'markdown'],
-  \ 'h' : [':FloatermNew! --disposable pandoc %:p -o %:p:r.html' , 'html'],
-  \ 'l' : [':FloatermNew! --disposable pandoc %:p -o %:p:r.tex'  , 'latex'],
-  \ 'p' : [':FloatermNew! --disposable pandoc %:p -o %:p:r.pdf'  , 'pdf'],
-  \ }
-
-  " \ 'w' : [':Pandoc docx'           , 'to word from open'],
-  " \ 'm' : [':Pandoc md'             , 'to markdown from open'],
-  " \ 'h' : [':Pandoc html'           , 'to html from open'],
-  " \ 'l' : [':Pandoc latex'          , 'to latex from open'],
-  " \ 'p' : [':Pandoc pdf'            , 'to pdf from open'],
-
-
-" TODO: reassign 't' for some other purpose. was used for LaTeX TEMPLATES 
-" let g:which_key_map.T = {
-" \ 'name' : '+templates' ,
-" \ 'p' : [':read ~/AppData/Local/nvim/templates/PhilPaper.tex' , 'PhilPaper.tex'],
-" \ 'l' : [':read ~/AppData/Local/nvim/templates/Letter.tex'    , 'Letter.tex'],
-" \ 'g' : [':read ~/AppData/Local/nvim/templates/Glossary.tex'  , 'Glossary.tex'],
-" \ 'h' : [':read ~/AppData/Local/nvim/templates/HandOut.tex'   , 'HandOut.tex'],
-" \ 'b' : [':read ~/AppData/Local/nvim/templates/PhilBeamer.tex', 'PhilBeamer.tex'],
-" \ 's' : [':read ~/AppData/Local/nvim/templates/SubFile.tex'   , 'SubFile.tex'],
-" \ 'r' : [':read ~/AppData/Local/nvim/templates/Root.tex'      , 'Root.tex'],
-" \ 'm' : [':read ~/AppData/Local/nvim/templates/MultipleAnswer.tex'           , 'MultipleAnswer.tex'],
-" \ }
-
 
 " s is for SESSIONS
 let g:which_key_map.S = {
@@ -114,18 +78,10 @@ let g:which_key_map.v = {
   \ 's' : [':FloatermNew! cd ~/.local/share/nvim/swap | ls -A', 'swap'],
   \ }
 
-  " \ 'l' : [':VimtexErrors'                           , 'build log' ],
-  " \ 'a' : [':VimtexClean'                            , 'kill aux'],
-  " \ 'i' : [':VimtexTocOpen'                          , 'index' ],
-  " \ 'c' : ['VimtexCountWords'                       , 'word count' ],
-
 
 " a is for ACTIONS
 let g:which_key_map.a = {
   \ 'name' : '+actions' ,
-  \ 'b' : [':terminal bibexport -o %:p:r.bib %:p:r.aux'  , 'bib export'],
-  \ 'g' : [':e ~/AppData/Local/nvim/templates/Glossary.tex', 'edit glossary'],
-  \ 's' : [':e ~/AppData/Local/nvim/snips/tex.snippets'    , 'edit snippets'],
   \ 't' : [':FloatermKill!'                          , 'kill terminals'],
   \ 'k' : [':CocDisable'                             , 'kill coc'],
   \ 'r' : [':CocEnable'                              , 'restore coc'],

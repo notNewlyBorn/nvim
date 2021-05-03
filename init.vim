@@ -36,12 +36,11 @@ source $HOME/AppData/Local/nvim/themes/airline.vim
 "" ABANDONED
 " source $HOME/AppData/Local/nvim/plug-config/thesaurus.vim
 source $HOME/AppData/Local/nvim/plug-config/goyo.vim
-" source $HOME/AppData/Local/nvim/plug-config/pandoc.vim
+
 " source $HOME/AppData/Local/nvim/plug-config/vbox.vim
 " source $HOME/AppData/Local/nvim/plug-config/nerdtree.vim
 " source $HOME/AppData/Local/nvim/plug-config/vim-commentary.vim
 " source $HOME/AppData/Local/nvim/plug-config/rnvimr.vim
 " source $HOME/AppData/Local/nvim/plug-config/sneak.vim
 " source $HOME/AppData/Local/nvim/themes/onedark.vim
-" source $HOME/AppData/Local/nvim/keys/mappings.vim
 
