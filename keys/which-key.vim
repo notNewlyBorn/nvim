@@ -24,7 +24,7 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 
 " Single mappings
-let g:which_key_map['d'] = [ ':bd!'                  , 'delete buffer']
+let g:which_key_map['d'] = [ ':bd'                  , 'delete buffer']
 let g:which_key_map['e'] = [ ':CocCommand explorer'  , 'explorer' ]
 let g:which_key_map['q'] = [ ':wqa'                  , 'quit' ]
 let g:which_key_map['w'] = [ ':w'                    , 'write' ]
